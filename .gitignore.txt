@@ -1,0 +1,67 @@
+# ==============================
+# Java compiled files
+# ==============================
+*.class
+*.jar.original
+
+# ==============================
+# Build output
+# ==============================
+/build/
+/bin/
+/target/
+
+# ==============================
+# Eclipse-generated files
+# ==============================
+.metadata/
+.settings/
+.recommenders/
+
+# Keep project configuration files if needed
+# .project and .classpath are intentionally NOT ignored
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Secrets and local configuration
+# ==============================
+.env
+.env.*
+!.env.example
+secrets.properties
+local.properties
+
+# ==============================
+# Uploaded complaint attachments
+# ==============================
+SCRMS_Uploads/
+uploads/
+private_uploads/
+
+# ==============================
+# IDE-specific files
+# ==============================
+.idea/
+.vscode/
+
+# ==============================
+# Database backups and local dumps
+# ==============================
+*.sql.bak
+*.dump
+*.bak.sql
